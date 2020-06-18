@@ -17,11 +17,6 @@
   ],
   "author": "wangyangyang_cd@keruyun.com",
   "license": "ISC",
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "dependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
