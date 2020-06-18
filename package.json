@@ -10,13 +10,18 @@
     "docz:serve": "docz build && docz serve",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "keywords": [
     "utils"
   ],
   "author": "wangyangyang_cd@keruyun.com",
   "license": "ISC",
+    "husky": {
+      "hooks": {
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      }
+    },
   "dependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
