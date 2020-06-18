@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      // 指定生成哪个模块系统代码注意  "ESNext"最新的生成目标列表为 ES proposed features
+      // "ES6"和 "ES2015"可使用在目标输出为 "ES5"或更低的情况下。
+      "module": "esnext",
+      // 指定ECMAScript目标版本
+      "target": "es5",
+        
+       //  允许js，此配置，如果设置全局匹配路径。默认会编译js
+      "allowJs": true,
+      // 编译过程中需要引入的库文件的列表。
+      // lib没有指定默认注入的库的列表。默认注入的库为：
+      // 针对于--target ES5：DOM，ES5，ScriptHost
+      // 针对于--target ES6：DOM，ES6，DOM.Iterable，ScriptHost
+      "lib": ["es2015", "es2017", "dom"],
+      // 在表达式和声明上有隐含的 any类型时报错。
+      "noImplicitAny": false,
+      // 删除所有注释，除了以 /!*开头的版权信息。
+      "removeComments": true,
+      // 保留 const和 enum声明。查看 const enums documentation了解详情。
+      "preserveConstEnums": true,
+      // 生成相应的 .map文件。   
+      "sourceMap": false,
+      // 决定如何处理模块。或者是"Node"对于Node.js/io.js，或者是"Classic"（默认）。查看模块解析了解详情。
+      "moduleResolution": "node"
+    }
+  }
