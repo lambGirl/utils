@@ -10,6 +10,7 @@
     "docz:serve": "docz build && docz serve",
     "test": "jest",
     "test:coverage": "jest --coverage",
+    "commit": "commit",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "keywords": [
