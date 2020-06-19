@@ -17,11 +17,16 @@
   ],
   "author": "wangyangyang_cd@keruyun.com",
   "license": "ISC",
-    "husky": {
-      "hooks": {
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-      }
-    },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "dependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
