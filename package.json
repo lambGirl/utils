@@ -10,7 +10,7 @@
     "docz:serve": "docz build && docz serve",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "commit": "commit",
+    "commit": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "keywords": [
@@ -23,6 +23,11 @@
       "@commitlint/config-conventional"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/prompt"
+    }
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
@@ -31,6 +36,7 @@
   "dependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
+    "commitizen": "^4.1.2",
     "docz": "^2.3.1",
     "father-build": "^1.18.0",
     "husky": "^4.2.5",
@@ -42,6 +48,7 @@
     "@babel/preset-typescript": "^7.10.1",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/prompt": "^8.3.5",
     "@types/jest": "^26.0.0",
     "babel-jest": "^26.0.1"
   }
