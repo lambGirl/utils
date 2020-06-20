@@ -6,7 +6,7 @@
   "scripts": {
     "build": "father-build",
     "docz:dev": "docz dev",
-    "docz:build": "docz build --dest dist",
+    "docz:build": "docz build",
     "docz:serve": "docz build && docz serve",
     "test": "jest",
     "test:coverage": "jest --coverage",

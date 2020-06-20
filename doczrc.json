@@ -1,0 +1,14 @@
+
+ {
+  "title": "PAAS UTILS",
+  "description": "公共工具库",
+  "typescript":  true,
+  "dest": "dist",
+  "files": "./doc/*.{md,markdown,mdx}",
+  "ignore": ["README.md", "CHANGELOG.md"],
+  "menu": [
+    {"name": "简介"},
+    {"name": "方法工具库"},
+    {"name": "正则表达式"}
+  ]
+ }
