@@ -12,7 +12,7 @@ export const session = {
       const val = sessionStorage.getItem(key);
       return JSON.parse(val);
     }
-    return "";
+    return '';
   },
 };
 
@@ -30,6 +30,6 @@ export const storage = {
       const val = localStorage.getItem(key);
       return JSON.parse(val);
     }
-    return "";
+    return '';
   },
 };

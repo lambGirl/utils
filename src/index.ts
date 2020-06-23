@@ -1,3 +1,2 @@
-
 export { default as regRules } from './listOfRegularRules';
-export * from  './commonTools';
+export * from './commonTools';

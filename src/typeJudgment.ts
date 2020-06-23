@@ -1,10 +1,7 @@
 /**
  * 判断是够为Number
- * @param value 
+ * @param value
  */
-export function isNumber(
-    value: any
-  ): value is number {
-    return typeof value === 'number';
+export function isNumber(value: any): value is number {
+  return typeof value === 'number';
 }
-  
