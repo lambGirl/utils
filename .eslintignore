@@ -1,3 +1,10 @@
 dist
 .docz
+es
+./*.json
+./*.js
+./*.ts
+src/*/_test_/*
+CHANGELOG.md
+README.md
 jest.config.js

@@ -1,5 +1,9 @@
 .docz
 .doc
+es
+./*.json
+./*.js
+./*.ts
 CHANGELOG.md
 README.md
 
